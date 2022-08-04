@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+  <include file="$(find spot_ros_v2)/launch/gazebo_spawn.launch"/>
+  <include file="$(find spot_ros_v2)/launch/bringup.launch"/>
+
+</launch>

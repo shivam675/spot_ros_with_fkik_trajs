@@ -1,0 +1,66 @@
+joint_state_controller:
+  type: joint_state_controller/JointStateController
+  publish_rate: 50
+
+
+motor_front_left_hip_controller:
+  type: effort_controllers/JointPositionController
+  joint: motor_front_left_hip
+  pid: {p: 1, i: 0.001, d: 0.065}
+
+motor_front_left_upper_leg_controller:
+  type: effort_controllers/JointPositionController
+  joint: motor_front_left_upper_leg
+  pid: {p: 1, i: 0.001, d: 0.065}
+
+motor_front_left_lower_leg_controller:
+  type: effort_controllers/JointPositionController
+  joint: motor_front_left_lower_leg
+  pid: {p: 1, i: 0.001, d: 0.065}
+
+motor_front_right_hip_controller:
+  type: effort_controllers/JointPositionController
+  joint: motor_front_right_hip
+  pid: {p: 1, i: 0.001, d: 0.065}
+
+motor_front_right_upper_leg_controller:
+  type: effort_controllers/JointPositionController
+  joint: motor_front_right_upper_leg
+  pid: {p: 1, i: 0.001, d: 0.065}
+
+motor_front_right_lower_leg_controller:
+  type: effort_controllers/JointPositionController
+  joint: motor_front_right_lower_leg
+  pid: {p: 1, i: 0.001, d: 0.065}
+
+
+motor_back_left_hip_controller:
+  type: effort_controllers/JointPositionController
+  joint: motor_back_left_hip
+  pid: {p: 1, i: 0.001, d: 0.065}
+
+motor_back_left_upper_leg_controller:
+  type: effort_controllers/JointPositionController
+  joint: motor_back_left_upper_leg
+  pid: {p: 1, i: 0.001, d: 0.065}
+
+motor_back_left_lower_leg_controller:
+  type: effort_controllers/JointPositionController
+  joint: motor_back_left_lower_leg
+  pid: {p: 1, i: 0.001, d: 0.065}
+
+
+motor_back_right_hip_controller:
+  type: effort_controllers/JointPositionController
+  joint: motor_back_right_hip
+  pid: {p: 1, i: 0.001, d: 0.065}
+
+motor_back_right_upper_leg_controller:
+  type: effort_controllers/JointPositionController
+  joint: motor_back_right_upper_leg
+  pid: {p: 1, i: 0.001, d: 0.065}
+
+motor_back_right_lower_leg_controller:
+  type: effort_controllers/JointPositionController
+  joint: motor_back_right_lower_leg
+  pid: {p: 1, i: 0.001, d: 0.065}
